@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Travel Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap">
+    <style type="text/tailwindcss">
+  @theme {
+    --font-display: "Jost", sans-serif;
+  }
+
+  @layer base {
+    body {
+      background-color: #05060F;
+      background-image:
+        radial-gradient(circle at 20% 35%, rgba(79, 46, 220, 0.25), transparent 30%),
+        radial-gradient(circle at 75% 20%, rgba(214, 140, 60, 0.25), transparent 22%),
+        radial-gradient(circle at 80% 55%, rgba(30, 150, 240, 0.25), transparent 28%),
+        radial-gradient(circle at 45% 75%, rgba(236, 72, 153, 0.25), transparent 28%);
+      background-attachment: fixed;
+    }
+  }
+</style>
+</head>
+
+
+
+
+<body class="text-gray-100 max-w-6xl mx-auto">
+    <header class="flex flex-col md:flex-row justify-between items-center gap-4 px-1 py-4">
+        <div class="flex items-center gap-3">
+            <img src="icon.png" alt="Time Travel Agency Logo" class="logo" width="50" height="50"> 
+
+       <h1 class="font-display font-extrabold uppercase tracking-[0.3em]  ">Tempora</h1>
+    </div>
+
+       <nav>
+        <ul class="flex gap-4 md:gap-6 text-sm md:text-base"> 
+            <li><a href="#" class="hover:text-blue-500">Home</a></li>
+            <li><a href="#" class="hover:text-blue-500">Destinations</a></li>
+            <li><a href="#" class="hover:text-blue-500">Booking</a></li>
+            <li><a href="#" class="hover:text-blue-500">Contact</a></li>
+        </ul>
+    </nav>
+
+    </header>
+
+    <main>
+        <section class="relative">
+            <img src="Hero.jpg" alt="Hero Image" class="w-full h-72 md:h-auto object-cover rounded-2xl"> 
+         <div class="absolute inset-0 flex items-center justify-center">
+        <h2 class="text-2xl md:text-4xl text-white text-center bg-white/20 backdrop-blur-xs border border-white/1 rounded-2xl px-5 py-4 md:px-8 md:py-6 mx-4 shadow-lg">Your next trip starts 1,000 years ago.</h2>
+    </div>
+        
+        </section>
+        <section class="py-16"> 
+        <h2 class="text-3xl font-bold mb-10 text-center">Our Services</h2>
+
+            <div class="flex flex-col md:flex-row items-center gap-10">
+             <img src="Pyramids.jpg" alt="Ancient Egypt" class="w-full md:w-1/2 rounded-2xl">
+            <div class="w-1/2">
+            <h3 class="text-2xl font-bold mb-3">Ancient Egypt Expedition</h3>
+            <p>Watch the pyramids rise, stroll the banks of the Nile and meet the pharaohs in person. Guided by our expert historians.</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row-reverse items-center gap-10 mt-16">
+        <img src="19th Cent Start.jpg" alt="Renaissance Central Europe" class="w-full md:w-1/2 rounded-2xl">
+        <div class="w-1/2">
+        <h3 class="text-2xl font-bold mb-3">Renaissance in Central Europe</h3>
+        <p>Immerse yourself in the cultural revolution of the 19th century. Explore the art, architecture, and daily life of this transformative period.</p></div>
+        </div> 
+        
+
+        
+        <div class="flex flex-col md:flex-row items-center gap-10 mt-16">
+             <img src="Dino Time Yeay.jpg" alt="Dino Time" class="w-full md:w-1/2 rounded-2xl  ">
+            <div class="w-1/2">
+            <h3 class="text-2xl font-bold mb-3">Dino Time</h3>
+            <p>Experience the thrill of walking among the giants of the prehistoric world. Guided by our expert paleontologists.</p>
+            </div>
+        </div>
+    
+
+        <div class="flex flex-col md:flex-row-reverse items-center gap-10 mt-16">
+        <img src="Future.jpg" alt="Future Picture" class="w-full md:w-1/2 rounded-2xl">
+        <div class="w-1/2">
+        <h3 class="text-2xl font-bold mb-3">Future Exploration</h3>
+        <p>Step into the unknown and discover what lies ahead. Our experts will guide you through the wonders of tomorrow.</p></div>
+        </div> 
+        
+        </section>
+
+
+        <section> 
+            <section class="py-16">
+    <h2 class="text-3xl font-bold mb-2">Explore our latest offer: "Solar Punk Future"</h2>
+    <p class="mb-10">Captured by our customer Derek on his trip.</p>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 auto-rows-[200px] md:auto-rows-[300px] gap-3 md:gap-4">
+    <img src="SP1.jpg" alt="Arrival at the solarpunk train station" class="md:row-span-2 w-full h-full object-cover rounded-xl">
+    <img src="SP2.jpg" alt="Rooftop view of the green city skyline" class="w-full h-full object-cover rounded-xl">
+    <img src="SP3.jpg" alt="Farmers market with vertical gardens" class="md:row-span-2 w-full h-full object-cover rounded-xl">
+        <img src="SP4.jpg" alt="Ride on the electric tram" class="md:row-span-2 w-full h-full object-cover rounded-xl">
+    <img src="SP5.jpg" alt="Park with river and wooden pavilions" class="w-full h-full object-cover rounded-xl">
+    <img src="SP6.jpg" alt="Glowing city at dusk" class="w-full h-full object-cover rounded-xl">
+</div>
+</section>
+
+
+
+
+
+
+
+        </section>
+    </main>
+
+<footer class="flex flex-col md:flex-row items-center gap-6 bg-[#05060F] rounded-2xl px-10 py-8 mb-8">
+    <div class="hidden md:block flex-1"></div>
+
+    <img src="tempora-logo.png" alt="Tempora Time Travel Agency Logo" class="w-40">
+
+    <nav class="flex-1 flex flex-col items-center md:items-end gap-2 text-sm text-gray-400">
+        <a href="#" class="hover:text-white">Imprint</a>
+        <a href="#" class="hover:text-white">Contact</a>
+        <a href="#" class="hover:text-white">FAQs</a>
+        <a href="#" class="hover:text-white">Time sensitive information</a>
+    </nav>
+</footer>
+
+</body>
+</html>
